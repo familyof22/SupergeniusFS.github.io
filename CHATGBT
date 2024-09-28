@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supergenius Financial Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #004080;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header img {
+            max-width: 150px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        main {
+            padding: 2rem;
+        }
+        section {
+            margin-bottom: 2rem;
+        }
+        section h2 {
+            color: #004080;
+        }
+        .services {
+            display: flex;
+            justify-content: space-around;
+        }
+        .service-item {
+            text-align: center;
+        }
+        footer {
+            background-color: #004080;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Supergenius Financial Services">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Welcome to Supergenius Financial Services</h2>
+            <p>We specialize in CFO and Controller work for renewable companies, helping you manage your finances efficiently and sustainably.</p>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Supergenius Financial Services is dedicated to providing top-notch financial management solutions for companies in the renewable energy sector. Our mission is to support sustainable growth and financial stability for our clients.</p>
+        </section>
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="services">
+                <div class="service-item">
+                    <h3>CFO Services</h3>
+                    <p>Comprehensive financial oversight and strategic planning.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Controller Services</h3>
+                    <p>Accurate and timely financial reporting and compliance.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Financial Consulting</h3>
+                    <p>Expert advice on financial management and sustainability.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Get in touch with us for more information on how we can help your business thrive.</p>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message"></textarea><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Supergenius Financial Services. All rights reserved.</p>
+    </footer>
+</body>
+</html>
